@@ -1,0 +1,124 @@
+
+html {
+  border-left: 5px solid lightgray;
+  color: darkslategray;
+}
+
+body {
+  min-height: 100vh;
+  font-family: sans-serif;
+  max-width: 1000px;
+  margin: auto;
+}
+
+header {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+nav > ul{
+  padding: none;
+  justify-content: space-between;
+}
+
+
+
+main {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+article {
+  margin-bottom: 4rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+}
+
+article > p {
+  line-height: 1.5rem;
+}
+
+article > p::first-letter {
+  color: lightgray;
+  font-size: 600%;
+  float: left;
+  padding-right: 2vh;
+  line-height: 1;
+}
+
+img {
+  width: 100%;
+}
+
+
+footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+h1 {
+  color: tomato;
+  font-weight: normal;
+  font-size: 10vh;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: xx-large;
+  margin-top: 2vh;
+}
+
+h3 {
+  font-weight: normal;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+}
+
+#copyright {
+  color: lightgray;
+  font-size: x-large;
+  font-weight: normal;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+time {
+  font-weight: normal;
+  font-size: 5vh;
+  color: lightgray;
+}
+
+.postTitle {
+  font-size: 7vh;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+#topMenu > * > a {
+  color: lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+#bottomMenu > * > a {
+  color: tomato;
+}
+
+.continues {
+  color: tomato;
+  align-self: flex-end;
+  font-weight: bold;
+}
